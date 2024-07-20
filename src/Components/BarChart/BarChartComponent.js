@@ -10,8 +10,7 @@ const BarChartComponent = (props) => {
   useEffect(() => {
     const getBarChartData = async () => {
       try {
-        const response = await axios.get(`https://roxiler-assigment-48kjx16wf-greybat4s-projects.vercel.app/bar-chart?month=${selectedMonth}`);
-        setBarChartData(response.data);
+        const response = await axios.get(`https://roxiler-backend-vijaykumars-projects.vercel.app/bar-chart?month=${selectedMonth}`);        setBarChartData(response.data);
       } catch(error){
         if (error.response) {
           // Server responded with a status other than 200 range

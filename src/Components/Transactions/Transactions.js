@@ -52,7 +52,7 @@ const Transactions = () => {
 
     useEffect(()=>{
         const getTransactions = async ()=>{
-            const list = await axios.get(`https://roxiler-assigment-48kjx16wf-greybat4s-projects.vercel.app/transactions?month=${selectedMonth}&page=${page}&search=${searchInput}&perPage=10`)
+            const list = await axios.get(`https://roxiler-backend-vijaykumars-projects.vercel.app/transactions?month=${selectedMonth}&page=${page}&search=${searchInput}&perPage=10`)
             // `https://roxiler-backend-alpha.vercel.app?page=${page}&perPage=10&search=${searchInput}&month=${selectedMonth}`
             if(list){
                 console.log(list)
