@@ -35,4 +35,4 @@ To use the frontend application, follow the instructions below:
 Enjoy using the product transaction management system!
 
 ## Deployment
-The frontend application is deployed and can be accessed at https://roxiler-frontend-m20lt21up-greybat4s-projects.vercel.app/
+The frontend application is deployed and can be accessed at https://roxiler-frontend-h7fjmd2yv-greybat4s-projects.vercel.app/
